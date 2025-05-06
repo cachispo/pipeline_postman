@@ -13,7 +13,7 @@ before_script:
 postman_tests:
   stage: test
   script:
-    - newman run postman/EjemploJose.postman_collection.json
+    - newman run EjemploJose.postman_collection.json
   
   only:
     - main
